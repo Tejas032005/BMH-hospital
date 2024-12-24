@@ -1,0 +1,126 @@
+.nav1{ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 60px;
+    background-color: goldenrod;
+    color: white;
+    align-items: center;
+  }
+  .nav2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+  }
+  #button1{
+    background-color: green;
+}
+#button1:active{
+  background-color: greenyellow;
+}
+.hr1{  
+  margin: 0;
+  color: white;
+  /* position: sticky;
+  top: 60px; */
+ }
+ .body1{
+  background-image: url('https://t4.ftcdn.net/jpg/02/72/22/01/360_F_272220138_vj2NbNbpuZoIktW6Q6YTyWXWTI3GERf0.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.payment{
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px 20px 20px 20px;
+  width: 500px;
+}
+.payment input{
+  height: 20px;
+  margin: 7px;
+}
+.Card{
+  background-color: blue;
+  font-size: large;
+  font-weight: bold;
+  height: 30px;
+  width: 190px;
+}
+.QR{
+ background-color: blue;
+ font-size: large;
+  font-weight: bold;
+  height: 30px;
+  width: 190px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+ .back_to_top{
+    color: white;
+    background-color: black;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer{
+    background-color: black;
+    height: 625px;
+  }
+  .footer{
+    padding-top: 80px ;
+    color: white;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+      gap: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: red;
+  }
+  .other_social_media  img:hover{
+      transform: scale(1.3);
+      border: 2px solid white;
+    }
+  img{
+    border-radius: 30%;
+    margin: 8px;
+    margin-bottom: 0px;
+  }
+  .Direction:hover{
+      background-color: blue;
+  }
